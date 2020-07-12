@@ -4,15 +4,16 @@
     <persistence-unit name="tg-bot" transaction-type="RESOURCE_LOCAL">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         <properties>
-            <property name="hibernate.connection.url" value="jdbc:postgres://ec2-54-217-213-79.eu-west-1.compute.amazonaws.com:5432"/>
-            <property name="hibernate.connection.driver_class" value="org.postgresql.Driver"/>
-            <property name="hibernate.connection.username" value="zyivpxadrwhyzx"/>
-            <property name="hibernate.connection.password" value="3e190140ca4fb478c076bf4557785e9526a4af7eee7e451b11a8600976423e1d"/>
-            <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/>
+            <property name="hibernate.connection.url" value="jdbc:h2:./data/tabletka"/>
+            <property name="hibernate.connection.driver_class" value="org.h2.Driver"/>
+            <property name="hibernate.connection.username" value="sa"/>
+            <property name="hibernate.connection.password" value=""/>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect"/>
             <property name="hibernate.archive.autodetection" value="class"/>
             <property name="hibernate.show_sql" value="true"/>
             <property name="hibernate.format_sql" value="true"/>
             <property name="hibernate.hbm2ddl.auto" value="update"/>
+            <property name="hibernate.flushMode" value="ALWAYS" />
         </properties>
     </persistence-unit>
 </persistence>

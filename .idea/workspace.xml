@@ -28,7 +28,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c0ee0d4-f169-40d3-a938-76f179b52098" name="Default Changelist" comment="postgreSQL for Heroku">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/h2_1_4_200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/tabletka.mv.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/tabletka.trace.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/test.mv.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/test.mv.db.mv.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/h2-1.4.200.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/TabletkaNotifierBot_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/TabletkaNotifierBot_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_2_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TabletkaNotifierBot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TabletkaNotifierBot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/pw/crr/engine/TabletkaNotifierBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pw/crr/engine/TabletkaNotifierBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/pw/crr/entities/ChatUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pw/crr/entities/ChatUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/pw/crr/entities/PharmacyOffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pw/crr/entities/PharmacyOffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,17 +64,26 @@
     </option>
   </component>
   <component name="ProjectId" id="1eV2GsRdWRts76CTdEXho6OSWtO" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="sqlite&#10;h2" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -65,7 +92,13 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.1908046" />
+    <property name="project.structure.side.proportion" value="0.18390805" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\cdngz\TabletkaNotifierBot\src\main\resources" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="TGBotStarter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -95,7 +128,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594392374108</updated>
-      <workItem from="1594392396292" duration="5828000" />
+      <workItem from="1594392396292" duration="6097000" />
+      <workItem from="1594401763266" duration="14000" />
+      <workItem from="1594484499201" duration="1934000" />
+      <workItem from="1594486679799" duration="3847000" />
+      <workItem from="1594492946419" duration="537000" />
+      <workItem from="1594495548982" duration="2312000" />
+      <workItem from="1594498031625" duration="266000" />
+      <workItem from="1594545785614" duration="1459000" />
     </task>
     <task id="LOCAL-00001" summary="postgreSQL for Heroku">
       <created>1594399336815</created>
@@ -120,47 +160,61 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="postgreSQL for Heroku" />
     <option name="LAST_COMMIT_MESSAGE" value="postgreSQL for Heroku" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594399257350">
+    <state x="712" y="343" key="#Notifications" timestamp="1594545929072">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594399257350" />
-    <state x="690" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1594393587818">
+    <state x="712" y="343" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1594545929072" />
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594498274553">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594393587818" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1594393591003">
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594498274553" />
+    <state x="690" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1594546113575">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594393591003" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1594399311966">
+    <state x="690" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594546113575" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1594546133621">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594399311966" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1594399311966">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594546133621" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1594547199134">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594399311966" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1594399311966">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594547199134" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1594547199134">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594399311966" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1594399311966">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594547199134" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1594547199134">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594399311966" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1594395797655">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594547199134" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1594547199134">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594395797655" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594547199134" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1594546539603">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1594546539603" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1594546189067">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594546189067" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1594399341963">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594399341963" />
+    <state x="664" y="411" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1594491450646">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="664" y="411" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1594491450646" />
   </component>
 </project>

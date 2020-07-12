@@ -63,12 +63,12 @@ public class TabletkaNotifierBot extends TelegramLongPollingBot {
     @SneakyThrows
     @Override
     public void onUpdateReceived(Update update) {
-        //доделать инлайн меню
+        //TODO доделать инлайн меню
 
         if (update.getMessage().getText().equals("/start")) {
             ChatUser chatUser = new ChatUser(update.getMessage().getChatId());
             chatUserDAO.update(chatUser);
-            execute(new SendMessage(chatUser.getChatId(), "Введите город:"));
+            execute(new SendMessage(chatUser.getChatId(), "Введите код город:"));
         } else {
             chatUserDAO.findByID(update.getMessage().getChatId())
                     .setLocationId(Integer.parseInt(update.getMessage().getText()));

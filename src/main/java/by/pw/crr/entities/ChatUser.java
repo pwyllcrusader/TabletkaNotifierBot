@@ -15,9 +15,6 @@ public class ChatUser {
     private Long chatId;
     private int locationId;
     @ManyToMany
-    @JoinTable(
-            name = "chatUser_medicine"
-    )
     private Set<Medicine> medicines = new HashSet<>();
 
     public ChatUser() {

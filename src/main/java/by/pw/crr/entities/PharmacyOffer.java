@@ -15,11 +15,12 @@ public class PharmacyOffer {
     @NotNull
     private String pharmacyAddress;
     @ManyToOne
-    @JoinColumn(name = "medicine_medicineId", nullable = false)
+    @NotNull
     private Medicine medicine;
+    @NotNull
     private String cost;
     @ManyToOne
-    @JoinColumn(name = "chatUser_chatId", nullable = false)
+    @NotNull
     private ChatUser chatUser;
     @NotNull
     private boolean isSent;
