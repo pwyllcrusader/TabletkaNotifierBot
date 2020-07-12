@@ -22,7 +22,6 @@ public class PharmacyOffer {
     @ManyToOne
     @NotNull
     private ChatUser chatUser;
-    @NotNull
     private boolean isSent;
 
     public PharmacyOffer() {
@@ -34,7 +33,6 @@ public class PharmacyOffer {
         this.medicine = medicine;
         this.cost = cost;
         this.chatUser = chatUser;
-        this.isSent = false;
     }
 
     @Override
