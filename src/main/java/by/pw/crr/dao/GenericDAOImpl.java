@@ -39,7 +39,9 @@ public abstract class GenericDAOImpl<T, ID> implements GenericDAO<T, ID> {
 
     @Override
     public void update(T t) {
+        em.getTransaction().begin();
         em.merge(t);
+        em.getTransaction().commit();
     }
 
     @Override

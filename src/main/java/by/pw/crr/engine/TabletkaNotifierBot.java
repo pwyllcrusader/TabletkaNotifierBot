@@ -28,7 +28,7 @@ public class TabletkaNotifierBot extends TelegramLongPollingBot {
         Runnable updatingTask = this::updateOffers;
         Thread updatingThread = new Thread(updatingTask);
         updatingThread.start();
-
+            sleep(10000);
         Runnable sendingTask = this::sendPharmacyOffers;
         Thread sendingThread = new Thread(sendingTask);
         sendingThread.start();
