@@ -6,8 +6,7 @@ import javax.persistence.EntityManager;
 
 public class MedicineDAO extends GenericDAOImpl<Medicine, Long> {
 
-    public MedicineDAO(EntityManager em) {
+    public MedicineDAO() {
         super(Medicine.class);
-        super.setEntityManager(em);
     }
 }

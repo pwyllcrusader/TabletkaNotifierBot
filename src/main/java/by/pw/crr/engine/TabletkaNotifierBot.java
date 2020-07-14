@@ -13,7 +13,7 @@ import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.InlineKeyboardMarkup;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.InlineKeyboardButton;
 
-import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityManager;
 import javax.persistence.Persistence;
 import java.util.ArrayList;
 import java.util.List;
@@ -22,10 +22,10 @@ import static java.lang.Thread.sleep;
 
 public class TabletkaNotifierBot extends TelegramLongPollingBot {
 
-    private final EntityManagerFactory emf = Persistence.createEntityManagerFactory("tg-bot");
-    private final ChatUserDAO chatUserDAO = new ChatUserDAO(emf.createEntityManager());
-    private final MedicineDAO medicineDAO = new MedicineDAO(emf.createEntityManager());
-    private final PharmacyOfferDAO pharmacyOfferDAO = new PharmacyOfferDAO(emf.createEntityManager());
+    private final EntityManager em = Persistence.createEntityManagerFactory("tg-bot").createEntityManager();
+    private final ChatUserDAO chatUserDAO = new ChatUserDAO();
+    private final MedicineDAO medicineDAO = new MedicineDAO();
+    private final PharmacyOfferDAO pharmacyOfferDAO = new PharmacyOfferDAO();
 
     @SneakyThrows
     public TabletkaNotifierBot() {
@@ -37,6 +37,8 @@ public class TabletkaNotifierBot extends TelegramLongPollingBot {
         Thread sendingThread = new Thread(sendingTask);
         sendingThread.start();
     }
+
+
 
     @SneakyThrows
     private void sendPharmacyOffers() {

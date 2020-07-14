@@ -6,8 +6,7 @@ import javax.persistence.EntityManager;
 
 public class ChatUserDAO extends GenericDAOImpl<ChatUser, Long> {
 
-    public ChatUserDAO(EntityManager em) {
+    public ChatUserDAO() {
         super(ChatUser.class);
-        super.setEntityManager(em);
     }
 }

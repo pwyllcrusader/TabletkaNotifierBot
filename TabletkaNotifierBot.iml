@@ -34,6 +34,7 @@
         <jarDirectory url="file://$MODULE_DIR$/lib" recursive="false" />
       </library>
     </orderEntry>
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.h2database:h2:1.4.200" level="project" />
     <orderEntry type="library" name="Maven: org.jsoup:jsoup:1.13.1" level="project" />
     <orderEntry type="library" name="Maven: org.telegram:telegrambots:4.8.1" level="project" />
     <orderEntry type="library" name="Maven: org.telegram:telegrambots-meta:4.8.1" level="project" />

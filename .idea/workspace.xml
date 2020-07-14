@@ -28,15 +28,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c0ee0d4-f169-40d3-a938-76f179b52098" name="Default Changelist" comment="inline menu is done">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TabletkaNotifierBot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TabletkaNotifierBot.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/tabletka.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/tabletka.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/pw/crr/dao/ChatUserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pw/crr/dao/ChatUserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/pw/crr/dao/GenericDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pw/crr/dao/GenericDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/pw/crr/dao/GenericDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pw/crr/dao/GenericDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/pw/crr/dao/MedicineDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pw/crr/dao/MedicineDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/pw/crr/dao/PharmacyOfferDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pw/crr/dao/PharmacyOfferDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/pw/crr/engine/TabletkaNotifierBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pw/crr/engine/TabletkaNotifierBot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/pw/crr/entities/PharmacyOffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pw/crr/entities/PharmacyOffer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -120,7 +133,9 @@
       <workItem from="1594492946419" duration="537000" />
       <workItem from="1594495548982" duration="2312000" />
       <workItem from="1594498031625" duration="266000" />
-      <workItem from="1594545785614" duration="13464000" />
+      <workItem from="1594545785614" duration="16420000" />
+      <workItem from="1594744688584" duration="4240000" />
+      <workItem from="1594750142720" duration="1787000" />
     </task>
     <task id="LOCAL-00001" summary="postgreSQL for Heroku">
       <created>1594399336815</created>
@@ -150,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594565383574</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="inline menu is done">
+      <created>1594572653956</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1594572653956</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +206,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594498274553" />
+    <state x="765" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1594574701878">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="220" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594574701878" />
     <state x="690" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1594546113575">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -192,38 +218,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594546133621" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1594570218586">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1594751126346">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594570218586" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1594570218586">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594751126346" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1594751126346">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594570218586" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1594570218585">
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594751126346" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1594751126345">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594570218585" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1594570218586">
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594751126345" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1594751126346">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594570218586" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1594564673256">
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594751126346" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1594575466090">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594564673256" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1594564673256">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594575466090" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1594575466090">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594564673256" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1594564673256">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594575466090" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1594575466090">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594564673256" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1594564673256">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594575466090" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1594575466090">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594564673256" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594575466090" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1594546539603">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -232,14 +258,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="262" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594570626997" />
+    <state x="741" y="222" key="RollbackChangesDialog" timestamp="1594748784765">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="741" y="222" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594748784765" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1594548498814">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594548498814" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1594572077493">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1594748774564">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594572077493" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594748774564" />
     <state x="664" y="411" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1594491450646">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

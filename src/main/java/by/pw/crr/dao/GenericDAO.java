@@ -1,5 +1,6 @@
 package by.pw.crr.dao;
 
+import javax.persistence.EntityManager;
 import java.util.List;
 
 public interface GenericDAO<T, ID> {
