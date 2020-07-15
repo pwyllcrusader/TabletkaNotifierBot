@@ -11,7 +11,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="TabletkaNotifierBot" target="14" />
+      <module name="TabletkaNotifierBot" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

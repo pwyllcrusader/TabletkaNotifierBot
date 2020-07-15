@@ -13,8 +13,6 @@ import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.InlineKeyboardMarkup;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.InlineKeyboardButton;
 
-import javax.persistence.EntityManager;
-import javax.persistence.Persistence;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -22,7 +20,6 @@ import static java.lang.Thread.sleep;
 
 public class TabletkaNotifierBot extends TelegramLongPollingBot {
 
-    private final EntityManager em = Persistence.createEntityManagerFactory("tg-bot").createEntityManager();
     private final ChatUserDAO chatUserDAO = new ChatUserDAO();
     private final MedicineDAO medicineDAO = new MedicineDAO();
     private final PharmacyOfferDAO pharmacyOfferDAO = new PharmacyOfferDAO();
@@ -44,26 +41,30 @@ public class TabletkaNotifierBot extends TelegramLongPollingBot {
     private void sendPharmacyOffers() {
         SendMessage sendMessage = new SendMessage();
         sendMessage.enableMarkdown(true);
-        for (PharmacyOffer pharmacyOffer : pharmacyOfferDAO.findAll()) {
-            if (!pharmacyOffer.isSent()) {
-                sendMessage.setChatId(pharmacyOffer.getChatUser().getChatId());
-                sendMessage.setText(pharmacyOffer.toString());
-                execute(sendMessage);
-                pharmacyOffer.setSent(true);
-                pharmacyOfferDAO.update(pharmacyOffer);
-                sleep(3_125);
+        while (true) {
+            for (PharmacyOffer pharmacyOffer : pharmacyOfferDAO.findAll()) {
+                if (!pharmacyOffer.isSent()) {
+                    sendMessage.setChatId(pharmacyOffer.getChatUser().getChatId());
+                    sendMessage.setText(pharmacyOffer.toString());
+                    execute(sendMessage);
+                    pharmacyOffer.setSent(true);
+                    pharmacyOfferDAO.update(pharmacyOffer);
+                    sleep(3_125);
+                }
             }
+            sleep(30_000);
         }
-        sleep(60_000);
     }
 
     @SneakyThrows
     private void updateOffers() {
-        for (ChatUser chatUser : chatUserDAO.findAll()) {
-            List<PharmacyOffer> parsedOffers = TabletkaParser.INSTANCE.parseTabletka(chatUser);
-            parsedOffers.forEach(pharmacyOfferDAO::update);
+        while (true) {
+            for (ChatUser chatUser : chatUserDAO.findAll()) {
+                List<PharmacyOffer> parsedOffers = TabletkaParser.INSTANCE.parseTabletka(chatUser);
+                parsedOffers.forEach(pharmacyOfferDAO::update);
+            }
+            sleep(30_000);
         }
-        sleep(60_000);
     }
 
     @SneakyThrows
