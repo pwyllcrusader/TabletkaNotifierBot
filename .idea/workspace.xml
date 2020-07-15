@@ -28,15 +28,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c0ee0d4-f169-40d3-a938-76f179b52098" name="Default Changelist" comment="inline menu is done">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TabletkaNotifierBot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TabletkaNotifierBot.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/tabletka.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/tabletka.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/pw/crr/dao/ChatUserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pw/crr/dao/ChatUserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/pw/crr/dao/GenericDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pw/crr/dao/GenericDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/pw/crr/dao/GenericDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pw/crr/dao/GenericDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/pw/crr/dao/MedicineDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pw/crr/dao/MedicineDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/pw/crr/dao/PharmacyOfferDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pw/crr/dao/PharmacyOfferDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/pw/crr/engine/TabletkaNotifierBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pw/crr/engine/TabletkaNotifierBot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -136,6 +127,7 @@
       <workItem from="1594545785614" duration="16420000" />
       <workItem from="1594744688584" duration="4240000" />
       <workItem from="1594750142720" duration="1787000" />
+      <workItem from="1594815325578" duration="1280000" />
     </task>
     <task id="LOCAL-00001" summary="postgreSQL for Heroku">
       <created>1594399336815</created>
