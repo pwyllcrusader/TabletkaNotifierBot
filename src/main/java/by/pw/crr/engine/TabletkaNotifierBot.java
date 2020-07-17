@@ -52,7 +52,7 @@ public class TabletkaNotifierBot extends TelegramLongPollingBot {
                     sleep(3_125);
                 }
             }
-            sleep(30_000);
+            sleep(300_000);
         }
     }
 
@@ -63,7 +63,7 @@ public class TabletkaNotifierBot extends TelegramLongPollingBot {
                 List<PharmacyOffer> parsedOffers = TabletkaParser.INSTANCE.parseTabletka(chatUser);
                 parsedOffers.forEach(pharmacyOfferDAO::update);
             }
-            sleep(30_000);
+            sleep(300_000);
         }
     }
 
